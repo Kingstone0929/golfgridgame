@@ -171,7 +171,7 @@
     var selectedButtonNumber = -1;
     var queryText;
     var playerData;
-    var guessesLefted = 1;
+    var guessesLefted = 9;
 
     $(".grid-button").on('click' , function() {
         console.log($(this).index());
